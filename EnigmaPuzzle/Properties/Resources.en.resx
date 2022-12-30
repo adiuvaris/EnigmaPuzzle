@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Hour" xml:space="preserve">
+    <value>hour</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>hours</value>
+  </data>
+  <data name="LineMissing" xml:space="preserve">
+    <value>Line is missing</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minute</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="MoveLineWrong" xml:space="preserve">
+    <value>Linelength wrong - must be a multiple of 2!</value>
+  </data>
+  <data name="OL" xml:space="preserve">
+    <value>UL</value>
+  </data>
+  <data name="OR" xml:space="preserve">
+    <value>UR</value>
+  </data>
+  <data name="PuzzleSolved" xml:space="preserve">
+    <value>Congratulations!
+
+You have solved the puzzle with {0} moves.</value>
+  </data>
+  <data name="PuzzleSolvedTime" xml:space="preserve">
+    <value>You needed</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="Second" xml:space="preserve">
+    <value>second</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="Sure" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="SureToCancelGame" xml:space="preserve">
+    <value>Do you want to cancel the current game?</value>
+  </data>
+  <data name="SureToPrint" xml:space="preserve">
+    <value>Are you sure? 
+
+The output will be sent to the default printer.</value>
+  </data>
+  <data name="TipAbout" xml:space="preserve">
+    <value>A small dialog is started which provides some information about the program.</value>
+  </data>
+  <data name="TipClose" xml:space="preserve">
+    <value>Quits the program.</value>
+  </data>
+  <data name="TipCols" xml:space="preserve">
+    <value>If you do not like the default colors, you can change them in the table. 
+Please make sure that the colors are easily distinguishable.
+
+You can set the color with a click on the colored bar and select a new 
+color in the color selection dialog.</value>
+  </data>
+  <data name="TipConfig" xml:space="preserve">
+    <value>Clicking on this button launches the configuration dialog. </value>
+  </data>
+  <data name="TipHelp" xml:space="preserve">
+    <value>Here you find the instructions to the program. 
+It appears the instructions manual as a PDF document. 
+This of course only works if a PDF viewer is installed.</value>
+  </data>
+  <data name="TipLevel" xml:space="preserve">
+    <value>The currently selected level.</value>
+  </data>
+  <data name="TipLevelDown" xml:space="preserve">
+    <value>This reduces the difficulty of the playing area. 
+The playing area is brought into the starting position of the level.</value>
+  </data>
+  <data name="TipLevelUp" xml:space="preserve">
+    <value>This increases the difficulty of the playing area. 
+The playing area is brought into the starting position of the level.</value>
+  </data>
+  <data name="TipNew" xml:space="preserve">
+    <value>This starts a new game. The disks are randomly rotated a few times. 
+How many times the disks are rotated, and whether the rotations 
+are displayed, you can set in the configuration dialog.</value>
+  </data>
+  <data name="TipNumTurns" xml:space="preserve">
+    <value>This number determines how often randomly the disks will 
+be rotated by the computer if you start a new game.
+The higher the number the greater the mess and 
+the more difficult it is to produce the starting positions.</value>
+  </data>
+  <data name="TipOpen" xml:space="preserve">
+    <value>This loads a saved game. You'll get a File Open dialog 
+where you can select the file with the saved game.</value>
+  </data>
+  <data name="TipPicOriginal" xml:space="preserve">
+    <value>The layout of the current level.</value>
+  </data>
+  <data name="TipPrint" xml:space="preserve">
+    <value>With this button you can print out the playing area. 
+It prints only the actual playing area on one sheet. 
+
+The print uses the default printer.</value>
+  </data>
+  <data name="TipReset" xml:space="preserve">
+    <value>Brings the playing area back to the original state of the current game level.
+A started game will be canceled.</value>
+  </data>
+  <data name="TipRotationDelay" xml:space="preserve">
+    <value>This is the delay in milliseconds to wait between the shown steps.</value>
+  </data>
+  <data name="TipRotationSteps" xml:space="preserve">
+    <value>This number indicates how many partial images are drawn when a disk is rotated by 60 degrees.
+A value 4 defines that every 15 degrees, a new image is displayed. 
+
+The program waits between the images as long as under rotationdelay has been defined.
+The more sub-steps are shown the smoother is the rotation. 
+But it also requires a lot of system resources.</value>
+  </data>
+  <data name="TipSave" xml:space="preserve">
+    <value>This feature allows you to save the current state of a game, 
+so you can play later on. You get a Save As dialog and you 
+can specify a file name for the current score. 
+The file type must be set to Enigma.
+
+You can also save just the image as a JPEG file. 
+Then select the Save As dialog with the file type (Image).</value>
+  </data>
+  <data name="TipShowTurns" xml:space="preserve">
+    <value>You can view the turns when starting a new game. 
+If you remove the check here, you don't see the turns on a new game but only the resulting pattern.</value>
+  </data>
+  <data name="TipSound" xml:space="preserve">
+    <value>If this box is checked, you hear a noise when turning a disk.</value>
+  </data>
+  <data name="TipSwing" xml:space="preserve">
+    <value>You can use this to switch the swing across on or off.</value>
+  </data>
+  <data name="TipSwingSteps" xml:space="preserve">
+    <value>This value determines how hard the disk is swing across. 
+The greater the value the longer it takes to rotate.</value>
+  </data>
+  <data name="TipToolTips" xml:space="preserve">
+    <value>Uncheck this box if you want to switch off the tooltips on buttons and input fields.</value>
+  </data>
+  <data name="UL" xml:space="preserve">
+    <value>LL</value>
+  </data>
+  <data name="UR" xml:space="preserve">
+    <value>LR</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+</root>
